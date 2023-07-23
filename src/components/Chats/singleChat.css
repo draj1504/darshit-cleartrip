@@ -1,0 +1,48 @@
+.single-chat {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#selected {
+  background-color: gainsboro;
+}
+
+.single-chat-avatar {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.single-chat-body {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single-chat-tilte,
+.single-chat-orderID,
+.single-chat-lastmsg {
+  font-size: 10px;
+  height: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2px;
+}
+
+.single-chat-date {
+  font-size: 10px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
